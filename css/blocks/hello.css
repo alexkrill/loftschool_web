@@ -1,0 +1,28 @@
+.hello {
+    width: 776px;
+    margin: 0 auto;
+    margin-bottom: 228px;
+    text-align: center;
+    
+}
+
+.hello__title {
+    font-weight: 800;
+    font-size: 72px;
+    text-transform: uppercase; 
+    margin-top: 0;
+    margin-bottom: 14px; 
+    line-height: 1.39;  
+}
+
+
+.hello__text {
+    font-size: 18px;
+    margin-bottom: 39px;
+}
+
+.wrapper--main {
+    background: url('../../img/hero.jpg') center top 26px no-repeat, url('../../img/bottom-pic.jpg') center bottom 324px no-repeat;
+}
+
+

@@ -1,0 +1,28 @@
+.button {
+    display: inline-block;
+    background: #FF5500;
+    border-radius: 35px;
+    padding: 18px 54px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.button:hover {
+    background: #FF3D00;
+    transition: 1s;
+}
+
+.button--light {
+    background: #fff;
+    color: #FF3D00;
+    border: 2px solid #FF3D00;
+  
+}
+
+.button--light:hover {
+    background: #FF3D00;
+    color: #fff;
+    transition: 1s;
+}

@@ -1,0 +1,38 @@
+.pagination {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-bottom: 153px;
+}
+
+
+.pagination__text {
+    margin-right: 36px;
+}
+
+.pagination__list {
+    display: flex;
+}
+
+
+.pagination__link {
+    display: block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    position: relative;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 32px;
+}
+
+.pagination__item--active .pagination__link {
+    background: #FF5500;
+}
+
+.pagination__link:hover {
+    background: #FF5500;
+    transition: .5s;
+}
+

@@ -1,0 +1,92 @@
+.footer {
+    margin-top: auto;
+}
+
+
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+
+.contact__text {
+    color: #9A9A9A;
+    font-size: 11px;
+}
+
+
+.socials__item {
+    margin-right: 6px;
+}
+
+.socials__item:last-child {
+    margin-right: 0;
+}
+
+.socials {
+    display: flex;
+}
+
+.socials__link {
+    display: block;
+    text-decoration: none;
+    width: 36px;
+    height: 36px;
+    position: relative;
+}
+
+.socials__link:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 36px; height: 36px;
+    background: url('../../img/sprites.png') -66px -122px;
+}
+
+.socials__item--icon--tg .socials__link:after {
+    background-position: -66px -122px;
+}
+
+.socials__item--icon--tg .socials__link:hover:after {
+    background-position: -10px -10px;
+}
+
+.socials__item--icon--vk .socials__link:after {
+    background-position: -66px -10px;
+}
+
+.socials__item--icon--vk .socials__link:hover:after {
+    background-position: -10px -66px;
+}
+
+.socials__item--icon--fb .socials__link:after {
+    background-position: -66px -66px;
+}
+
+.socials__item--icon--fb .socials__link:hover:after {
+    background-position: -122px -10px;
+}
+
+.socials__item--icon--inst .socials__link:after {
+    background-position: -122px -66px;
+}
+
+.socials__item--icon--inst .socials__link:hover:after {
+    background-position: -10px -122px;
+}
+
+.menu--footer {
+    left: 328px;
+}
+
+.footer__sizing {
+    height: 146px;
+    margin-top: 19px;
+    border-top: 1px solid #353538;
+
+}
+
